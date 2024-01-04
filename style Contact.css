@@ -1,0 +1,127 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "WEARSTREET", sans-serif;
+}
+
+.WEARSTREET_logo{
+    font-size: 40px;
+    font-weight: bold;
+    float: left;
+    color: black;
+    text-transform: uppercase;
+    padding: 30px;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+
+}
+
+nav{
+    width: 800px;
+    text-align: left;
+    float: left;
+    margin-left: 200px;
+    margin-top: 40px;
+    background-color: lightgray;
+}
+
+nav ul li a{
+    text-decoration: none;
+    padding: 30px;
+    line-height: 50px;
+    color: black;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a:hover{
+    background-color: black;
+    color: white;
+    border-radius: 30%;
+}
+
+button{
+    border: none;
+    background-color: lightgrey;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-size: large;
+    font-weight: bold;
+    transition: .4s;
+}
+
+.content-items img{
+    width: 30%;
+    height: 30%;
+    float: right;
+    margin-top: 50px;
+}
+
+body{
+    background-color: lightgray;
+}
+
+#Login{
+    float: right;
+    color: black;
+    margin-top: -50px;
+    border: solid;
+    margin-right: 30px;
+}
+
+#login{
+    border: solid;
+    border-radius: 15%;
+    width: 500px;
+    height: 280px;
+    position: absolute;
+    top: 300px;
+    left: 480px;
+}
+
+#input1{
+    float: left;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+#input2{
+    float: left;
+    margin-left: -125px;
+    margin-top: 50px;
+}
+
+p{
+    float: left;
+    margin-left: -125px;
+    margin-top: 90px;
+}
+
+#loginbutton{
+    float: left;
+    margin-left: -80px;
+    height: 50px;
+    padding: 10px;
+    border: solid;
+    width: 300px;
+    margin-top: 130px;
+    text-align: center;
+    border-radius: 30%;
+}
+
+#text{
+    text-decoration: underline;
+    margin-left: 200px;
+    margin-top: 10px;
+
+}
