@@ -84,12 +84,12 @@ body{
 } 
 
 /* home page*/
-.container {
+.container1 {
     position: relative;
     display: inline-block;
 }
 
-.container img {
+.container1 img {
     width: 1000%;
     height: 920px;
     bottom: 1700px;
@@ -101,57 +101,17 @@ body{
     align-items: center;
 }
 
-
-
-
-
-
-
-/* Box */
-.container {
-    border: 2px solid grey;
-    border-radius: 10px;
-    top: 70px;
-    left: 310px;
-    width: 910px;
-    height: 550px;
-}
-
-/* Box Inside*/
-.title{
+.text-overlay {
+    position: absolute;
+    top: -15px;
+    left: 160px;
+    width: 200%;
+    height: 80%;
     display: flex;
-    justify-content: center;
     align-items: center;
-}
-
-/* Box Inside*/
-.col-75 {
-    display: flex;
     justify-content: center;
-    align-items: center;
-    left: 130px;
+    font-weight: bold;
+    color: white;
+    font-size: 36px;
+    text-align: center;
 }
-
-/*Form*/
-input[type=text], select, textarea {
-    width: 95%;
-    padding: 25px;
-    border: 1px solid grey;
-    border-radius: 20px;
-    resize: horizontal;
-}
-
-/* Submit */
-input[type=submit] {
-    width: 95%;
-    padding: 25px;
-    border: 1px solid grey;
-    border-radius: 20px;
-    resize: horizontal;
-    display: flex;
-    justify-content: center;
-}
-
-input[type=submit]:hover {
-    background-color: white;
-    }

@@ -101,57 +101,34 @@ body{
     align-items: center;
 }
 
-
-
-
-
-
-
-/* Box */
+/* home page*/
 .container {
-    border: 2px solid grey;
-    border-radius: 10px;
-    top: 70px;
-    left: 310px;
-    width: 910px;
-    height: 550px;
+    position: relative;
+    display: inline-block;
 }
 
-/* Box Inside*/
-.title{
+.container img {
+    width: 1460px;
+    height: 900px;
+    left: -220px;
+}
+
+.nav {
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
-/* Box Inside*/
-.col-75 {
+
+.text-overlay {
+    position: absolute;
+    top: -110px;
+    right: 40px;
+    width: 50%;
+    height: 100%;
     display: flex;
-    justify-content: center;
     align-items: center;
-    left: 130px;
-}
-
-/*Form*/
-input[type=text], select, textarea {
-    width: 95%;
-    padding: 25px;
-    border: 1px solid grey;
-    border-radius: 20px;
-    resize: horizontal;
-}
-
-/* Submit */
-input[type=submit] {
-    width: 95%;
-    padding: 25px;
-    border: 1px solid grey;
-    border-radius: 20px;
-    resize: horizontal;
-    display: flex;
     justify-content: center;
+    color: white;
+    font-size: 24px;
+    text-align: center;
 }
-
-input[type=submit]:hover {
-    background-color: white;
-    }
