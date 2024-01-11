@@ -84,7 +84,7 @@ body{
 } 
 
 /* home page*/
-.container {
+.container1 {
     position: relative;
     display: inline-block;
 }
@@ -103,6 +103,7 @@ body{
     margin-left: 141px;
     align-items: center;
     width: 20%;
+    color: white;
 }
 
 #border-2{
@@ -114,6 +115,7 @@ body{
     left: 450px;
     align-items: center;
     position: absolute;
+    color: white;
 }
 
 #border-3{
@@ -122,9 +124,10 @@ body{
     float: left;
     width: 20%;
     margin-top: 330px;
-    left: 730px;
+    left: 750px;
     align-items: center;
     position: absolute;
+    color: white;
 }
 
 #border-4{
@@ -133,25 +136,27 @@ body{
     float: left;
     width: 20%;
     margin-top: 330px;
-    left: 1020px;
+    left: 1040px;
     align-items: center;
     position: absolute;
+    color: white;
 }
 
 /*Images*/
 
 .content-items img{
     width: 245px;
-    height: 310px;
+    height: 300px;
     margin-left: -265px;
+    margin-top: 20px;
 }
 
 .image2 img{
     width: 245px;
-    height: 310px;
+    height: 300px;
     margin-left: 45px;
     float: left;
-    margin-top: -313px;
+    margin-top: -303px;
     align-items: center;
     align-content: center;
 }
@@ -161,17 +166,17 @@ body{
     height: 310px;
     float: left;
     margin-top: -313px;
-    margin-left: 339px;
+    margin-left: 358px;
     align-items: center;
     align-content: center;
 }
 
 .image4 img{
-    width: 243px;
+    width: 245px;
     height: 310px;
     float: left;
     margin-top: -313px;
-    margin-left: 615px;
+    margin-left: 632px;
     align-items: center;
     align-content: center;
 }
@@ -181,17 +186,17 @@ body{
     height: 310px;
     float: left;
     margin-left: -265px;
-    margin-top: 85px;
+    margin-top: 90px;
     align-items: center;
     align-content: center;
 }
 
 .image6 img{
-    width: 243px;
+    width: 245px;
     height: 310px;
     float: left;
-    margin-top: 85px;
-    margin-left: 65px;
+    margin-top: 90px;
+    margin-left: 63px;
     align-items: center;
     align-content: center;
 }
@@ -200,8 +205,8 @@ body{
     width: 220px;
     height: 310px;
     float: left;
-    margin-top: 85px;
-    margin-left: 50px;
+    margin-top: 90px;
+    margin-left: 70px;
     align-items: center;
     align-content: center;
 }
@@ -209,13 +214,21 @@ body{
 .image8 img{
     width: 245px;
     height: 310px;
+    margin-top: 90px;
+    margin-left: 55px;
     float: left;
-    margin-top: 85px;
-    margin-left: 60px;
     align-items: center;
     align-content: center;
 }
 
-.bg-img{
-    background-image: url(backgroundimages/background.jpeg);
+/* Background Image */
+.containerbg{
+    background-image: url(backgroundimages/background2.jpeg);
+    background-size: cover;
+    position: fixed;
+    z-index: -1;
+    align-items: center;
+    width: 200%;      
+    height: 100%;
+    margin-left: -50px;
 }

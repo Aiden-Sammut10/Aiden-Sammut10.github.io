@@ -104,7 +104,7 @@ body{
 .text-overlay {
     position: absolute;
     top: -15px;
-    left: 160px;
+    left: 170px;
     width: 200%;
     height: 80%;
     display: flex;

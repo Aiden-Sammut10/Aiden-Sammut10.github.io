@@ -108,11 +108,11 @@ body{
 
 
 /* Box */
-.container {
+.container1 {
     border: 2px solid grey;
     border-radius: 10px;
-    top: 70px;
-    left: 310px;
+    margin-top: 50px;
+    margin-left: 300px;
     width: 910px;
     height: 550px;
 }

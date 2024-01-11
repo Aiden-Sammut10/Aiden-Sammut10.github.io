@@ -84,12 +84,12 @@ body{
 } 
 
 /* home page*/
-.container {
+.container1 {
     position: relative;
     display: inline-block;
 }
 
-.container img {
+.container1 img {
     width: 1000%;
     height: 920px;
     bottom: 1700px;
@@ -102,12 +102,12 @@ body{
 }
 
 /* home page*/
-.container {
+.container1 {
     position: relative;
     display: inline-block;
 }
 
-.container img {
+.container1 img {
     width: 1460px;
     height: 900px;
     left: -220px;
