@@ -145,90 +145,22 @@ body{
 /*Images*/
 
 .content-items img{
-    width: 245px;
-    height: 300px;
-    margin-left: -265px;
-    margin-top: 20px;
-}
-
-.image2 img{
-    width: 245px;
-    height: 300px;
-    margin-left: 45px;
-    float: left;
-    margin-top: -303px;
-    align-items: center;
-    align-content: center;
-}
-
-.image3 img{
-    width: 210px;
-    height: 310px;
-    float: left;
-    margin-top: -313px;
-    margin-left: 358px;
-    align-items: center;
-    align-content: center;
-}
-
-.image4 img{
-    width: 245px;
-    height: 310px;
-    float: left;
-    margin-top: -313px;
-    margin-left: 632px;
-    align-items: center;
-    align-content: center;
-}
-
-.image5 img{
     width: 243px;
     height: 310px;
-    float: left;
-    margin-left: -265px;
-    margin-top: 90px;
-    align-items: center;
-    align-content: center;
+}
+.content-items h1 {
+    color: white;
+    text-align: center;
 }
 
-.image6 img{
-    width: 245px;
-    height: 310px;
-    float: left;
-    margin-top: 90px;
-    margin-left: 63px;
-    align-items: center;
-    align-content: center;
-}
-
-.image7 img{
-    width: 220px;
-    height: 310px;
-    float: left;
-    margin-top: 90px;
-    margin-left: 70px;
-    align-items: center;
-    align-content: center;
-}
-
-.image8 img{
-    width: 245px;
-    height: 310px;
-    margin-top: 90px;
-    margin-left: 55px;
-    float: left;
-    align-items: center;
-    align-content: center;
-}
 
 /* Background Image */
 .containerbg{
-    background-image: url(backgroundimages/background2.jpeg);
+    background-image: url(backgroundimages/background2.jpg);
     background-size: cover;
-    position: fixed;
+    background-repeat: no-repeat;
     z-index: -1;
     align-items: center;
-    width: 200%;      
     height: 100%;
-    margin-left: -50px;
+    width: 2000px;
 }

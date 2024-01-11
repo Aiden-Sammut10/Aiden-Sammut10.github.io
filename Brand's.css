@@ -84,78 +84,29 @@ body{
 } 
 
 /* home page*/
-.container {
-    position: relative;
-    display: inline-block;
-}
-
-.container img {
-    width: 1000%;
-    height: 920px;
-    bottom: 1700px;
-    left: -220px;
-}
-
 .nav {
     display: flex;
     align-items: center;
 }
 
+/*Images*/
 
-
-
-
-
-
-/* Box */
-.container1 {
-    border: 2px solid grey;
-    border-radius: 10px;
-    margin-top: 50px;
-    margin-left: 300px;
-    width: 910px;
-    height: 550px;
-}
-
-/* Box Inside*/
-.title{
-    display: flex;
-    justify-content: center;
+.content-items img{
+    width: 200px;
+    height: 210px;   
+    border-radius: 50%;
+    overflow: hidden; 
     align-items: center;
 }
 
-/* Box Inside*/
-.col-75 {
-    display: flex;
-    justify-content: center;
+
+/* Background Image */
+.containerbg{
+    background-image: url(backgroundimages/background2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
     align-items: center;
-    left: 130px;
-    border-top: 50px;
-}
-
-/*Form*/
-input[type=text], select, textarea {
-    width: 95%;
-    padding: 25px 20px;
-    border: 1px solid grey;
-    background-color: transparent;
-    border-radius: 20px;
-    resize: horizontal;
-    display: inline-block;
-    vertical-align: top;
-}
-
-/* Submit */
-input[type=submit] {
-    width: 95%;
-    padding: 25px;
-    border: 1px solid grey;
-    border-radius: 20px;
-    resize: horizontal;
-    display: flex;
-    justify-content: center;
-}
-
-input[type=submit]:hover {
-    background-color: white;
+    height: 100%;
+    width: 2000px;
 }
