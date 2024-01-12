@@ -159,11 +159,8 @@ body{
 
 
 /* Background Image */
-.containerbg{
+.background {
     background-image: url(backgroundimages/background2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    z-index: -1;
-    height: 100%;
-    width: max-content;
+    width: 100%;
+    height: 100vh;
 }

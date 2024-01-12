@@ -85,6 +85,18 @@ body{
     padding: 10px;
 } 
 
+
+/* Background Image */
+.background {
+    background-image: url(backgroundimages/background2.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+    align-items: center;
+}
+
 /* home page*/
 .container1 {
     position: relative;
@@ -102,16 +114,4 @@ body{
     height: 216px;   
     border-radius: 50%;
     overflow: hidden; 
-}
-
-/* Background Image */
-.containerbg{
-    background-image: url(backgroundimages/background2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    z-index: -1;
-    align-items: center;
-    height: 200%;
-    width: 400%;
-    margin-top: -400px;
 }

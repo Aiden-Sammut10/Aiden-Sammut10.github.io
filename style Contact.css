@@ -94,8 +94,6 @@ body{
     transform: translate(-50%, -50%);
 }
 
-/* other CSS properties */
-
 /* home page*/
 .container1 {
     position: relative;
@@ -117,11 +115,11 @@ body{
 /* Box */
 .col1{
     border: 2px solid grey;
-    border-radius: 10px;
+    border-radius: 40px;
     margin-top: 50px;
     margin-left: 300px;
     width: 910px;
-    height: 550px;
+    height: 560px;
 }
 
 /* Box Inside*/
@@ -129,8 +127,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    text-decoration: underline;
     color: gray;
+    border-top: 50px;
 }
 
 /* Box Inside*/
@@ -141,6 +139,24 @@ body{
     align-items: center;
     left: 130px;
     border-top: 50px;
+    height: 90px; 
+}
+
+.col-76 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 130px;
+    border-top: 50px;
+    height: 65px; 
+}
+
+.col-77 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 130px;
+    height: 290px; 
 }
 
 /*Form*/
@@ -148,7 +164,7 @@ input[type=text], select, textarea {
     width: 95%;
     padding: 25px 20px;
     border: 1px solid grey;
-    background-color: transparent;
+    background-color: white;
     border-radius: 20px;
     resize: horizontal;
     display: inline-block;
@@ -156,18 +172,12 @@ input[type=text], select, textarea {
 }
 
 /* Submit */
-input[type=submit] {
-    width: 95%;
-    padding: 25px;
-    border: 1px solid grey;
+.col-78 {
+    width: 70%;
     border-radius: 20px;
-    resize: horizontal;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    vertical-align: top;
-}
-
-input[type=submit]:hover {
-    background-color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 150px;
+    margin-top: -60px;
+    padding: 25px;
 }
